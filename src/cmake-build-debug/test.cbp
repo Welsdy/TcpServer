@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mycentos/Documents/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mycentos/Documents/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/mycentos/Documents/test/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mycentos/Documents/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/mycentos/Documents/test/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mycentos/Documents/test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mycentos/Documents/test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/mycentos/Documents/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mycentos/Documents/test/acceptor.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/acceptor.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/buffer.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/buffer.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/channel.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/channel.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/channel_map.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/channel_map.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/common.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/epoll_dispatcher.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/event_dispatcher.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/event_loop.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/event_loop.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/event_loop_thread.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/event_loop_thread.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/server_test.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/tcp_connection.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/tcp_connection.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/tcp_server.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/tcp_server.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/thread_pool.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/thread_pool.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/utils.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/utils.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/mycentos/Documents/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

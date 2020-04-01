@@ -1,0 +1,3 @@
+/home/mycentos/Documents/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mycentos/Documents/test/cmake-build-debug/CMakeFiles/test.dir
+/home/mycentos/Documents/test/cmake-build-debug/CMakeFiles/edit_cache.dir
