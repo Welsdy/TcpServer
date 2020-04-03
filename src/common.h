@@ -24,7 +24,7 @@
 #include <sys/epoll.h>
 #include <assert.h>
 
-#define    SERV_PORT      43211
+#define    SERV_PORT      12345
 #define    MAXLINE        4096
 #define    LISTENQ        1024
 
